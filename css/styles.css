@@ -145,6 +145,10 @@ body {
   margin-left: 50px;
 }
 
+.icon-link-header:focus .icon-header {
+  fill: var(--text-color-secondary);
+}
+
 /* ---------main--------- */
 
 .hero {
@@ -390,6 +394,10 @@ body {
   background-color: var(--footer-bg-color);
   padding: 60px 0px;
 }
+.wrapper-footer {
+  display: flex;
+  align-items: baseline;
+}
 
 .logo-bsmt {
   text-decoration: none;
@@ -443,7 +451,7 @@ body {
   line-height: 16px;
   letter-spacing: 1, 14;
   text-transform: uppercase;
-  color: var(--background-color);
+  color: var(--footer-color-text-secondary);
 }
 
 .icon-social-links-footer {
@@ -461,7 +469,7 @@ body {
   width: 44px;
   height: 44px;
   border-radius: 50%;
-  background: var(--text-color-secondary);
+  background: rgba(255, 255, 255, 0.1);
 }
 
 .social-link-footer svg {
