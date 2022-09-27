@@ -159,10 +159,6 @@ body {
   width: 10px;
   height: 16px;
 }
-.icon-link-header {
-  display: inline-block;
-}
-
 .contacts-item:hover .icon-header {
   fill: var(--text-color-accent);
 }
