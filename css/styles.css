@@ -83,7 +83,7 @@ body {
   width: 528px;
   height: 581px;
 
-  background-color: var(--background-color);
+  background-color: #fff;
   box-shadow: 0px 1px 3px rgba(0, 0, 0, 0.12), 0px 1px 1px rgba(0, 0, 0, 0.14),
     0px 2px 1px rgba(0, 0, 0, 0.2);
   border-radius: 4px;
@@ -438,13 +438,7 @@ body {
 .social-link:hover,
 .social-link:focus {
   background-color: var(--text-color-accent);
-}
-.social-link:hover .social-links-icon {
-  fill: var(--footer-color-text-secondary);
-}
-
-.social-link:focus .social-links-icon {
-  fill: var(--footer-color-text-secondary);
+  color: var(--footer-color-text-secondary);
 }
 
 /*--------------------regular customers-------------- */
@@ -491,9 +485,6 @@ body {
   width: 106px;
   height: 60px;
   fill: currentColor;
-}
-.regular-client-link:hover .client-logo {
-  fill: var(--text-color-accent);
 }
 
 .regular-client-link:focus .client-logo {
